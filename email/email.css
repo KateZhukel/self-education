@@ -8,6 +8,16 @@ img {
     display: block;
     border: 0;
 }
+a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
 .wrap-table-email {
     width: 100%;
     max-width: 900px;
@@ -48,15 +58,8 @@ img {
     width: 150px;
     border-radius: 2px;
 }
-a.link-red-button{
-    display: block;
-    width: 100%;
-    height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+.link-red-button{
     color: #ffffff;
-    font-size: 14px;
-    line-height: 40px;
-    text-decoration: none;
 }
 
 a.link-red-button > span{
@@ -69,6 +72,8 @@ a.link-red-button > span{
 
 .wrap-td-content1{
     color: #000000;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
 .td-header-h2{
@@ -78,4 +83,24 @@ a.link-red-button > span{
 .content2{
     font-size: 13px;
     line-height: 22px;
+}
+.border-but {
+    background: transparent;
+    border: 1px solid #9ba6a9;
+}
+
+a.link-border-button{
+    color: #242424;
+}
+
+.three-buttons{
+    width: 290px;
+    background: #f1f1f2;
+}
+.three-buttons-td{
+    height: 120px;
+
+}
+.three-buttons-td a{
+    height: 120px;
 }
