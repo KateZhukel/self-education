@@ -1,0 +1,81 @@
+html, body{
+    width: 100%;
+}
+h1, h2 {
+    font-weight: normal;
+}
+img {
+    display: block;
+    border: 0;
+}
+.wrap-table-email {
+    width: 100%;
+    max-width: 900px;
+    padding: 0;
+}
+.wrap-td-header, .wrap-td-content1{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap-td-header{
+    padding-top: 60px;
+    background: url("https://lh3.googleusercontent.com/sQuNGvd2DsMMqDG5nFdzuBCPRtqVNsxDNBmOFG5ET4TCQUrnEpFMykKdGKPXFJA0_cGV1K1fDf7MxjRkGosXCjnLCSVQfQonQdjYtr_oxk1iuAHiG9Za9-_eQnvpumbiCAx2GdkqTatLk47X0r2KcII6fuACaBonA8nlOlE6yn6o5VNJxyZM4lEIMrh5DHxMXRmh08hWnmHrgE6ucfdcoLMauijMz7SRM8LH0sufuyBuwpvm64P46Hm3red5Qhpyzg9jG1nn9fMFI7IyQ_BBu-0yb44QsPMQmR0k6JbAbIjkQPB4OIQHYrR3DKoffoGd3LakaVkQ6uIds6p7_7rPjwh7xy3Lafwd3SqWoMbDmqqDF0ZYHekaIqmle6RgnOW1MUUKUQ4KlEbnROdy3PFFZ9SxHIHFO1-FjEnVO8nPjRXQRgrWM255nbZ-xEfT4-4wSxNCZ4_qpAas4eTZTF_VZbsngYLV94g1Z4IEhGPUe4Sao6uVRpHkCH5gCYTyspXMMYHAUL65E1XeGnhJyhxNZGnXiqpCWA2KKPc0zsSwcvltTvb0lc6ukaQ_rNQvZGg42p3eScCVaHndEET8oo6y5zIUnW3KxRRTTQihbl8u5tmfVyikUkQ7EtLbKqJdchSXZ-f-IWHfMa2dZeYSh-vQKDS1O_BNeAeulolb6c71O_a8=w900-h561-no")
+    no-repeat;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.table-header{
+    width: 100%;
+}
+
+.td-main-header{
+    font-size: 16px;
+}
+
+.blue-td{
+    color: #82ffef;
+
+}
+.gray-td{
+    color: #9ba6a9;
+    line-height: 18px;
+}
+.red-button{
+    background: #cc2936;
+    width: 150px;
+    border-radius: 2px;
+}
+a.link-red-button{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+a.link-red-button > span{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 40px;
+        display: block;
+}
+
+.wrap-td-content1{
+    color: #000000;
+}
+
+.td-header-h2{
+    font-size: 18px;
+}
+
+.content2{
+    font-size: 13px;
+    line-height: 22px;
+}
