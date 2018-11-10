@@ -8,13 +8,16 @@ img {
     display: block;
     border: 0;
 }
+span{
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    display: block;
+    border: 0;
+}
 a{
     display: block;
     width: 100%;
-    height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    line-height: 40px;
     text-decoration: none;
 }
 
@@ -30,8 +33,7 @@ a{
 }
 .wrap-td-header{
     padding-top: 60px;
-    background: url("https://lh3.googleusercontent.com/sQuNGvd2DsMMqDG5nFdzuBCPRtqVNsxDNBmOFG5ET4TCQUrnEpFMykKdGKPXFJA0_cGV1K1fDf7MxjRkGosXCjnLCSVQfQonQdjYtr_oxk1iuAHiG9Za9-_eQnvpumbiCAx2GdkqTatLk47X0r2KcII6fuACaBonA8nlOlE6yn6o5VNJxyZM4lEIMrh5DHxMXRmh08hWnmHrgE6ucfdcoLMauijMz7SRM8LH0sufuyBuwpvm64P46Hm3red5Qhpyzg9jG1nn9fMFI7IyQ_BBu-0yb44QsPMQmR0k6JbAbIjkQPB4OIQHYrR3DKoffoGd3LakaVkQ6uIds6p7_7rPjwh7xy3Lafwd3SqWoMbDmqqDF0ZYHekaIqmle6RgnOW1MUUKUQ4KlEbnROdy3PFFZ9SxHIHFO1-FjEnVO8nPjRXQRgrWM255nbZ-xEfT4-4wSxNCZ4_qpAas4eTZTF_VZbsngYLV94g1Z4IEhGPUe4Sao6uVRpHkCH5gCYTyspXMMYHAUL65E1XeGnhJyhxNZGnXiqpCWA2KKPc0zsSwcvltTvb0lc6ukaQ_rNQvZGg42p3eScCVaHndEET8oo6y5zIUnW3KxRRTTQihbl8u5tmfVyikUkQ7EtLbKqJdchSXZ-f-IWHfMa2dZeYSh-vQKDS1O_BNeAeulolb6c71O_a8=w900-h561-no")
-    no-repeat;
+    background: url("https://lh3.googleusercontent.com/s-nZAkQU4yVD6rOQBGma75MLAvmLN9RNfbP5UuxMzUpwXm5HsxGVhvPb1DkvFp_I9XJlYW1-j9V2P1otylkJPL-NLgnTaNwUJMKGpuOUxuUYyVkjx2FsOO0cAC49ZKmAVZLxwKXFvwKAoeMOjM0uFXrTa9eJugniH7xC-ylzFuHnxbSAKCSHNOcUV1dMAfDoDSdGLJn-Ix07s_pgyz_wa6RyzEUMZtTVKDZS0GgReNJPO7xOi5-xEtECM1AIZNINJ5qeEFZNb7_oJS8IkV7ykiHcb0QoPa36UF0XCAypzeAomAg_NXRY2nQ5P6NLsEJukRxfp4x6Yl6tpEdAtO_fU4cFjXvErBFRiZeMX80PeUnFRZ8_OByXtzG_WsMdFxL6eWRkLq2maVQ1fohqDYD6Rbgr8usfLVA2uUty7CZMH6uou-te9KkBfL2cXjLcLuZoV5uwMZqHVtUDnugUN5kqiVGeVSThp4uYo0hAxqjbIhxRurIgv1nflPQQ80Rs1pRKjjlJwP2oHtODTUBA8Xp4RPiF4Gt_Mw9akd_fa3LiiL4I42cW17qlL8LQO2d9VNN6TS8LcTn8csEziJXFNnVnax7H1D5QQ67Q0PP5RKE1ofEENXgHF2gZhUPomBHXDcygJv4Vt-YFSsGaznd_dwD46koYzSADuYpXc6Db0vCzda36=w900-h561-no");
     font-size: 13px;
     color: #ffffff;
     letter-spacing: 1px;
@@ -69,12 +71,11 @@ a.link-red-button > span{
         line-height: 40px;
         display: block;
 }
-
-.wrap-td-content1{
-    color: #000000;
-    padding-right: 150px;
-    padding-left: 150px;
+a.link-red-button{
+    line-height: 40px;
+    height: 40px;
 }
+
 
 .td-header-h2{
     font-size: 18px;
@@ -97,10 +98,13 @@ a.link-border-button{
     width: 290px;
     background: #f1f1f2;
 }
-.three-buttons-td{
-    height: 120px;
 
-}
-.three-buttons-td a{
+.three-buttons-links{
     height: 120px;
+}
+
+.three-buttons-links > span {
+    font-size: 16px;
+    color: #242424;
+    line-height: 40px;
 }
