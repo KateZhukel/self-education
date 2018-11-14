@@ -25,6 +25,7 @@ a{
     width: 100%;
     max-width: 900px;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .wrap-td-header, .wrap-td-content1{
     padding-left: 150px;
@@ -33,7 +34,7 @@ a{
 }
 .wrap-td-header{
     padding-top: 60px;
-    background: url("https://lh3.googleusercontent.com/s-nZAkQU4yVD6rOQBGma75MLAvmLN9RNfbP5UuxMzUpwXm5HsxGVhvPb1DkvFp_I9XJlYW1-j9V2P1otylkJPL-NLgnTaNwUJMKGpuOUxuUYyVkjx2FsOO0cAC49ZKmAVZLxwKXFvwKAoeMOjM0uFXrTa9eJugniH7xC-ylzFuHnxbSAKCSHNOcUV1dMAfDoDSdGLJn-Ix07s_pgyz_wa6RyzEUMZtTVKDZS0GgReNJPO7xOi5-xEtECM1AIZNINJ5qeEFZNb7_oJS8IkV7ykiHcb0QoPa36UF0XCAypzeAomAg_NXRY2nQ5P6NLsEJukRxfp4x6Yl6tpEdAtO_fU4cFjXvErBFRiZeMX80PeUnFRZ8_OByXtzG_WsMdFxL6eWRkLq2maVQ1fohqDYD6Rbgr8usfLVA2uUty7CZMH6uou-te9KkBfL2cXjLcLuZoV5uwMZqHVtUDnugUN5kqiVGeVSThp4uYo0hAxqjbIhxRurIgv1nflPQQ80Rs1pRKjjlJwP2oHtODTUBA8Xp4RPiF4Gt_Mw9akd_fa3LiiL4I42cW17qlL8LQO2d9VNN6TS8LcTn8csEziJXFNnVnax7H1D5QQ67Q0PP5RKE1ofEENXgHF2gZhUPomBHXDcygJv4Vt-YFSsGaznd_dwD46koYzSADuYpXc6Db0vCzda36=w900-h561-no");
+    background: url("https://lh3.googleusercontent.com/D7x_UahYkpLfmKklwofAToH8V9F0RU7IbIjtRquZBZujZeQwpfzRiZfWIGVyGYaJmxX5l0zUyInEMOmbYH2BdU3-P7g_lYoeNATFPSBof7WuIs7WPmYXChey4WMRaYUDR-ZV_v3-n3Ipj7Poh_ydwgCxp1pedZyIS_LirfwWUSRytS1Xz_Lv94uAS-JTpl8OMBtSp7YugjvKsjIyqBbDD6XwJDkdCwIXx-Ye1d2KEvO9I_gVon0n44Cu6BCbG6EVF2SYGem8Zh_7N4BkyJKhxvz-Nqc5TjYRslBjDzstGoDAWmS9TlA6zbdZG6NqVlWtvGGEOc7oTfxLtZbLH6CxtEYAU_4j2QBdxxBmrn9Pcr9zf_YkM_L2bsay77R-VkAuYl9End5dhCeB7Sy2gh6b6WNpBCNt9FmSOLPkaRPMBscE-aDVhmo5URDpLMSBMzyoFCbk7iOKMLrokt3hXNYVZbeuwY8ttfD5HVoVfe-dQsQB7rSLgw5zjFqOnwTd-KPK2OE08b8zgdwRf94b9AYyXyHuZzu9MrFAP_9m9XMb0O8_oPNWVDC3DYUkqj7ffNGgJ_qpZL4090pc9yf3ePsKI157yrYKm_pYuFhIPTmCAx-XcK97RKFxeakmYJ4BaqXNyYw8FI8uDaY7AzfM2VnlJCIY=w900-h561-no");
     font-size: 13px;
     color: #ffffff;
     letter-spacing: 1px;
@@ -107,4 +108,20 @@ a.link-border-button{
     font-size: 16px;
     color: #242424;
     line-height: 40px;
+}
+.three-news {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.three-news-grey{
+    color: gray;
+    line-height: 20px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.three-news-green{
+    font-size: 13px;
+    color: #009a8d;
 }
